@@ -453,8 +453,10 @@
 
 
 // media запросы // 2560
+@media(max-width:376px){
 
-@media(max-width:425px){
+}
+@media(max-width:426px){
     .header{
         height: 80px;
         .logo-img{
@@ -590,6 +592,7 @@
                 display: none;
             }
             .left-programm{
+                width: 100%;
                 .top-text{
                     width: 64%;
                     .title-text{
@@ -597,7 +600,7 @@
                     }
                     .subtitle{
                         font-size: 16px;
-                       width: 400px;
+                       width: 100%;
                     }
                     .in_programm{
                         font-size: 20px;

@@ -362,7 +362,7 @@
     text-align: center;
     padding-top: 15px; }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .header {
     height: 80px; }
     .header .logo-img {
@@ -447,27 +447,29 @@
 
   .programm .all_container .work-program {
     display: none; }
-  .programm .all_container .left-programm .top-text {
-    width: 64%; }
-    .programm .all_container .left-programm .top-text .title-text {
-      font-size: 20px; }
-    .programm .all_container .left-programm .top-text .subtitle {
-      font-size: 16px;
-      width: 400px; }
-    .programm .all_container .left-programm .top-text .in_programm {
-      font-size: 20px; }
-  .programm .all_container .left-programm .list-progect {
+  .programm .all_container .left-programm {
     width: 100%; }
-    .programm .all_container .left-programm .list-progect .progect {
-      max-width: 420px;
-      justify-content: space-around; }
-    .programm .all_container .left-programm .list-progect .text-progect .name-progect {
-      font-size: 20px;
-      width: 200px; }
-    .programm .all_container .left-programm .list-progect .text-progect .descript {
-      font-size: 15px;
-      line-height: 1;
-      width: 200px; }
+    .programm .all_container .left-programm .top-text {
+      width: 64%; }
+      .programm .all_container .left-programm .top-text .title-text {
+        font-size: 20px; }
+      .programm .all_container .left-programm .top-text .subtitle {
+        font-size: 16px;
+        width: 100%; }
+      .programm .all_container .left-programm .top-text .in_programm {
+        font-size: 20px; }
+    .programm .all_container .left-programm .list-progect {
+      width: 100%; }
+      .programm .all_container .left-programm .list-progect .progect {
+        max-width: 420px;
+        justify-content: space-around; }
+      .programm .all_container .left-programm .list-progect .text-progect .name-progect {
+        font-size: 20px;
+        width: 200px; }
+      .programm .all_container .left-programm .list-progect .text-progect .descript {
+        font-size: 15px;
+        line-height: 1;
+        width: 200px; }
 
   .main-network .main-info {
     display: block; }
