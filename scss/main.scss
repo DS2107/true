@@ -452,7 +452,6 @@
 }
 
 
-// media запросы // 2560
 
 @media(max-width:1550px){
     .first-section{
@@ -550,6 +549,20 @@
             }
             
            
+        }
+        .programm{
+            .all_container{
+                .work-program{
+                    width: 50%;
+                    margin-left: 20px;
+                }
+            }
+           
+        }
+        .registr{
+            .woomen{
+                width: 60%;
+            }
         }
       
     }
@@ -680,8 +693,8 @@
     .programm{
        .all_container{
             .work-program{
-                width: 350px;
-                height: 400px;
+                width: 60%;
+                height: 60%;
                 margin-left: 0;
                 margin-right: 30px;
             }
@@ -780,7 +793,8 @@
            
         }
         .woomen{
-            width: 60%;
+            width: 50%;
+           
         }
        
     }

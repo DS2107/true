@@ -403,6 +403,11 @@
       width: 170px; }
       .header .all_container .head-links .head-link {
         font-size: 14px; }
+    .header .programm .all_container .work-program {
+      width: 50%;
+      margin-left: 20px; }
+    .header .registr .woomen {
+      width: 60%; }
 
   .first-section {
     padding-top: 30px;
@@ -485,8 +490,8 @@
     height: 305px; }
 
   .programm .all_container .work-program {
-    width: 350px;
-    height: 400px;
+    width: 60%;
+    height: 60%;
     margin-left: 0;
     margin-right: 30px; }
   .programm .all_container .left-programm {
@@ -555,7 +560,7 @@
         padding-top: 14px;
         padding-bottom: 15px; }
     .registr .woomen {
-      width: 60%; }
+      width: 50%; }
 
   .footer {
     width: 100%;
