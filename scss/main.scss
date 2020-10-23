@@ -20,13 +20,13 @@
 
 @font-face{
     font-family: "MyriadPro-Regular";
-    src: url(/font/MyriadPro-Regular.ttf);
+    src: url(../font/MyriadPro-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: "OpenSans";
-    src:url(/font/OpenSans-Regular.ttf);
+    src:url(../font/OpenSans-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
@@ -40,7 +40,7 @@
 @mixin Fira($fz:24px,$color:white) {
     color:$color;
     font-size: $fz;
-    font-family: "FiraSans-Regular";
+    font-family: 'Fira Sans', sans-serif;;
 }
 
 @mixin OpenSans ($fz:24px,$color:black) {
