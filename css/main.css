@@ -54,7 +54,7 @@
           color: #BFBFBF; }
 
 .first-section {
-  background-image: url(/img/Top-img.jpg);
+  background-image: url(../img/Top-img.jpg);
   background-repeat: no-repeat;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;
@@ -318,7 +318,7 @@
         padding-bottom: 20px; }
 
 .footer {
-  background-image: url(/img/photo_2020-10-21_14-09-36.jpg);
+  background-image: url(../img/photo_2020-10-21_14-09-36.jpg);
   background-repeat: no-repeat;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;
@@ -362,6 +362,417 @@
     text-align: center;
     padding-top: 15px; }
 
+@media (max-width: 1550px) {
+  .first-section .title-registration {
+    width: 90%; }
+    .first-section .title-registration .castle {
+      width: 388px;
+      height: 203px; }
+
+  .programm .all_container .work-program {
+    width: 60%;
+    margin-left: 20px; }
+
+  .registr .woomen {
+    width: 70%; }
+
+  .footer {
+    padding-top: 100px; }
+    .footer .block-social {
+      margin-bottom: 100px; } }
+@media (max-width: 1440px) {
+  .footer {
+    padding-top: 40px; }
+    .footer .block-social {
+      margin-bottom: 100px; } }
+@media (max-width: 376px) {
+  .programm .all_container .left-programm .list-progect .text-progect .name-progect {
+    font-size: 20px;
+    width: 140px; }
+  .programm .all_container .left-programm .list-progect .text-progect .descript {
+    font-size: 15px;
+    line-height: 1;
+    width: 140px; } }
+@media (max-width: 1024px) {
+  .header {
+    height: 80px; }
+    .header .logo-img {
+      width: 106px;
+      height: 40px; }
+    .header .all_container .head-links {
+      width: 170px; }
+      .header .all_container .head-links .head-link {
+        font-size: 14px; }
+
+  .first-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-size: cover; }
+    .first-section .title-text {
+      width: 550px; }
+      .first-section .title-text .title-text-first {
+        font-size: 34px;
+        text-align: center; }
+      .first-section .title-text .title-text-second {
+        font-size: 24px; }
+    .first-section .title-registration {
+      width: 93%; }
+      .first-section .title-registration .title-registration-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0; }
+        .first-section .title-registration .title-registration-info .button {
+          padding: 10px 10px 10px 10px;
+          font-size: 15px; }
+        .first-section .title-registration .title-registration-info .info {
+          color: white;
+          text-align: left;
+          font-size: 14px;
+          width: 220px;
+          margin-top: 20px;
+          margin-left: 40px; }
+      .first-section .title-registration .castle {
+        width: 388px;
+        height: 248px; }
+
+  .timetable {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .timetable .all_container .timetable-container {
+      width: 100%; }
+      .timetable .all_container .timetable-container .main-date {
+        justify-content: space-around; }
+        .timetable .all_container .timetable-container .main-date .main-date-text {
+          width: 490px;
+          font-size: 34px; }
+    .timetable .all_container .information-date-text {
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .timetable .all_container .information-date-text .place {
+        justify-content: space-between;
+        margin-left: 70px; }
+        .timetable .all_container .information-date-text .place .address {
+          font-size: 20px;
+          margin-left: 20px; }
+      .timetable .all_container .information-date-text .time {
+        width: 50%;
+        padding-top: 20px;
+        justify-content: space-around; }
+        .timetable .all_container .information-date-text .time .table {
+          width: 40%;
+          margin-left: 0px; }
+          .timetable .all_container .information-date-text .time .table .td-time {
+            width: 30px;
+            font-size: 21px; }
+          .timetable .all_container .information-date-text .time .table .event {
+            width: 170px;
+            font-size: 18px; }
+
+  .main .first-text {
+    font-size: 24px;
+    padding-top: 50px; }
+  .main .center-text {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .main .last-text {
+    font-size: 24px; }
+  .main .manager {
+    width: 100%;
+    height: 305px; }
+
+  .programm .all_container .work-program {
+    width: 350px;
+    height: 400px;
+    margin-left: 0;
+    margin-right: 30px; }
+  .programm .all_container .left-programm {
+    width: 100%; }
+    .programm .all_container .left-programm .top-text {
+      width: 100%; }
+      .programm .all_container .left-programm .top-text .title-text {
+        width: 100%;
+        font-size: 28px; }
+      .programm .all_container .left-programm .top-text .subtitle {
+        font-size: 20px;
+        width: 100%; }
+      .programm .all_container .left-programm .top-text .in_programm {
+        font-size: 24px; }
+    .programm .all_container .left-programm .list-progect {
+      width: 100%; }
+      .programm .all_container .left-programm .list-progect .progect {
+        width: 100%;
+        justify-content: space-around; }
+      .programm .all_container .left-programm .list-progect .text-progect {
+        width: 100%; }
+        .programm .all_container .left-programm .list-progect .text-progect .name-progect {
+          font-size: 20px;
+          width: 100%; }
+        .programm .all_container .left-programm .list-progect .text-progect .descript {
+          font-size: 15px;
+          line-height: 1;
+          width: 100%; }
+
+  .main-network .main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto; }
+    .main-network .main-info .user {
+      margin-bottom: 40px; }
+    .main-network .main-info .coffe {
+      margin-bottom: 30px;
+      margin-top: 120px; }
+    .main-network .main-info .left-main-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-network .main-info .left-main-info .description-main {
+        font-size: 16px;
+        width: 300px; }
+    .main-network .main-info .right-main-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      margin-top: 20px; }
+      .main-network .main-info .right-main-info .description-main {
+        font-size: 16px;
+        width: 300px; }
+
+  .registr {
+    padding-top: 60px;
+    height: 950px; }
+    .registr .form {
+      width: 50%; }
+      .registr .form .form-container {
+        padding-left: 16px;
+        padding-right: 13px;
+        padding-top: 14px;
+        padding-bottom: 15px; }
+    .registr .woomen {
+      width: 60%; }
+
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-bottom: 0;
+    padding-top: 50px; }
+    .footer .footer-text {
+      padding-top: 70px;
+      width: 100%; }
+      .footer .footer-text .footer-left-text .left-text {
+        margin-top: 60px;
+        font-size: 14px;
+        width: 100%; }
+      .footer .footer-text .footer-right-text {
+        font-size: 14px;
+        width: 340px; }
+    .footer .block-social {
+      margin-bottom: 0; }
+      .footer .block-social .social {
+        width: 150px;
+        margin-top: 20px; }
+        .footer .block-social .social .social-img {
+          width: 20px;
+          height: 20px; }
+      .footer .block-social .orange {
+        margin-top: 4%;
+        width: 10px;
+        height: 10px; }
+    .footer .last-footer-text {
+      padding-top: 80px;
+      font-size: 14px; } }
+@media (max-width: 769px) {
+  .header {
+    height: 80px; }
+    .header .logo-img {
+      width: 106px;
+      height: 40px; }
+    .header .all_container .head-links {
+      width: 170px; }
+      .header .all_container .head-links .head-link {
+        font-size: 14px; }
+
+  .first-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-size: cover; }
+    .first-section .title-text {
+      width: 300px; }
+      .first-section .title-text .title-text-first {
+        font-size: 20px;
+        text-align: center; }
+      .first-section .title-text .title-text-second {
+        font-size: 14px; }
+    .first-section .title-registration {
+      width: 93%; }
+      .first-section .title-registration .title-registration-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0; }
+        .first-section .title-registration .title-registration-info .button {
+          padding: 10px 10px 10px 10px;
+          font-size: 15px; }
+        .first-section .title-registration .title-registration-info .info {
+          color: white;
+          text-align: left;
+          font-size: 14px;
+          width: 220px;
+          margin-top: 20px;
+          margin-left: 40px; }
+      .first-section .title-registration .castle {
+        width: 288px;
+        height: 148px; }
+
+  .timetable {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .timetable .all_container .timetable-container {
+      width: 100%; }
+      .timetable .all_container .timetable-container .main-date {
+        justify-content: space-around; }
+        .timetable .all_container .timetable-container .main-date .main-date-text {
+          width: 300px;
+          font-size: 24px; }
+    .timetable .all_container .information-date-text {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column; }
+      .timetable .all_container .information-date-text .place {
+        width: 70%;
+        justify-content: space-between;
+        margin-left: 70px; }
+        .timetable .all_container .information-date-text .place .address {
+          font-size: 20px;
+          margin-left: 0; }
+      .timetable .all_container .information-date-text .time {
+        width: 100%;
+        padding-top: 20px;
+        justify-content: space-around; }
+        .timetable .all_container .information-date-text .time .table {
+          width: 40%;
+          margin-left: 0px; }
+          .timetable .all_container .information-date-text .time .table .td-time {
+            width: 30px;
+            font-size: 21px; }
+          .timetable .all_container .information-date-text .time .table .event {
+            width: 170px;
+            font-size: 18px; }
+
+  .main .first-text {
+    font-size: 24px;
+    padding-top: 40px; }
+  .main .center-text {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .main .last-text {
+    font-size: 24px; }
+  .main .manager {
+    width: 100%;
+    height: 305px; }
+
+  .programm .all_container .work-program {
+    width: 350px;
+    height: 400px;
+    margin-left: 0;
+    margin-right: 30px; }
+  .programm .all_container .left-programm {
+    width: 100%; }
+    .programm .all_container .left-programm .top-text {
+      width: 64%; }
+      .programm .all_container .left-programm .top-text .title-text {
+        font-size: 20px; }
+      .programm .all_container .left-programm .top-text .subtitle {
+        font-size: 16px;
+        width: 300px; }
+      .programm .all_container .left-programm .top-text .in_programm {
+        font-size: 20px; }
+    .programm .all_container .left-programm .list-progect {
+      width: 100%; }
+      .programm .all_container .left-programm .list-progect .progect {
+        width: 100%;
+        justify-content: space-around; }
+      .programm .all_container .left-programm .list-progect .text-progect {
+        width: 100%; }
+        .programm .all_container .left-programm .list-progect .text-progect .name-progect {
+          font-size: 20px;
+          width: 200px; }
+        .programm .all_container .left-programm .list-progect .text-progect .descript {
+          font-size: 15px;
+          line-height: 1;
+          width: 200px; }
+
+  .main-network .main-info {
+    display: block; }
+    .main-network .main-info .left-main-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .main-network .main-info .left-main-info .description-main {
+        font-size: 16px;
+        width: 300px; }
+    .main-network .main-info .right-main-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      margin-top: 20px; }
+      .main-network .main-info .right-main-info .description-main {
+        font-size: 16px;
+        width: 300px; }
+
+  .registr {
+    padding-top: 60px;
+    height: 950px; }
+    .registr .form {
+      width: 100%; }
+      .registr .form .form-container {
+        padding-left: 16px;
+        padding-right: 13px;
+        padding-top: 14px;
+        padding-bottom: 15px; }
+    .registr .woomen {
+      display: none; }
+
+  .footer {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    padding-bottom: 0;
+    padding-top: 50px; }
+    .footer .footer-text {
+      padding-top: 0;
+      width: 100%; }
+      .footer .footer-text .footer-left-text .left-text {
+        margin-top: 60px;
+        font-size: 14px;
+        width: 100%; }
+      .footer .footer-text .footer-right-text {
+        font-size: 14px;
+        width: 340px; }
+    .footer .block-social {
+      margin-bottom: 0; }
+      .footer .block-social .social {
+        width: 150px;
+        margin-top: 20px; }
+        .footer .block-social .social .social-img {
+          width: 20px;
+          height: 20px; }
+      .footer .block-social .orange {
+        margin-top: 4%;
+        width: 10px;
+        height: 10px; }
+    .footer .last-footer-text {
+      padding-top: 80px;
+      font-size: 14px; } }
 @media (max-width: 426px) {
   .header {
     height: 80px; }
@@ -461,15 +872,17 @@
     .programm .all_container .left-programm .list-progect {
       width: 100%; }
       .programm .all_container .left-programm .list-progect .progect {
-        max-width: 420px;
+        width: 70%;
         justify-content: space-around; }
-      .programm .all_container .left-programm .list-progect .text-progect .name-progect {
-        font-size: 20px;
-        width: 200px; }
-      .programm .all_container .left-programm .list-progect .text-progect .descript {
-        font-size: 15px;
-        line-height: 1;
-        width: 200px; }
+      .programm .all_container .left-programm .list-progect .text-progect {
+        width: 100%; }
+        .programm .all_container .left-programm .list-progect .text-progect .name-progect {
+          font-size: 20px;
+          width: 200px; }
+        .programm .all_container .left-programm .list-progect .text-progect .descript {
+          font-size: 15px;
+          line-height: 1;
+          width: 200px; }
 
   .main-network .main-info {
     display: block; }
