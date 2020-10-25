@@ -175,9 +175,9 @@
   .programm .all_container {
     display: flex;
     max-width: 1460px; }
-    .programm .all_container .work-program {
-      width: 576px;
-      height: 581px; }
+    .programm .all_container .center-programm {
+      display: flex;
+      width: 100%; }
     .programm .all_container .left-programm {
       width: 660px; }
       .programm .all_container .left-programm .top-text .title-text {
@@ -227,7 +227,9 @@
     margin-bottom: 45px;
     text-align: center; }
   .main-network .main-info {
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
     .main-network .main-info .description-main {
       width: 540px;
       color: black;
@@ -370,7 +372,7 @@
       height: 203px; }
 
   .programm .all_container .work-program {
-    width: 60%;
+    width: 30%;
     margin-left: 20px; }
 
   .registr .woomen {
@@ -385,6 +387,11 @@
     padding-top: 40px; }
     .footer .block-social {
       margin-bottom: 100px; } }
+@media (max-width: 437px) {
+  .first-section .title-registration {
+    width: 90%; }
+    .first-section .title-registration .castle {
+      display: none; } }
 @media (max-width: 376px) {
   .programm .all_container .left-programm .list-progect .text-progect .name-progect {
     font-size: 20px;
@@ -593,6 +600,9 @@
     .footer .last-footer-text {
       padding-top: 80px;
       font-size: 14px; } }
+@media (max-width: 659px) {
+  .work-program {
+    display: none; } }
 @media (max-width: 769px) {
   .header {
     height: 80px; }
@@ -685,8 +695,7 @@
     height: 305px; }
 
   .programm .all_container .work-program {
-    width: 350px;
-    height: 400px;
+    width: 40%;
     margin-left: 0;
     margin-right: 30px; }
   .programm .all_container .left-programm {
@@ -815,8 +824,6 @@
           color: black;
           text-align: center;
           margin: 0 auto; }
-      .first-section .title-registration .castle {
-        display: none; }
 
   .timetable {
     padding-top: 30px; }
